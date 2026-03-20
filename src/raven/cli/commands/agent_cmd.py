@@ -33,7 +33,7 @@ _AGENT_REGISTRY = {
     },
     "validator": {
         "description": "Exploit testing and validation",
-        "status": "planned",
+        "status": "available",
         "phase": "3",
     },
     "coordinator": {

@@ -102,12 +102,14 @@ from raven.cli.commands.config_cmd import config_cmd  # noqa: E402
 from raven.cli.commands.agent_cmd import agent_cmd  # noqa: E402
 from raven.cli.commands.scan_cmd import scan_cmd  # noqa: E402
 from raven.cli.commands.exploit_cmd import exploit_cmd  # noqa: E402
+from raven.cli.commands.validate_cmd import validate_cmd  # noqa: E402
 
 cli.add_command(analyze_cmd)
 cli.add_command(config_cmd)
 cli.add_command(agent_cmd)
 cli.add_command(scan_cmd)
 cli.add_command(exploit_cmd)
+cli.add_command(validate_cmd)
 
 
 # ---------------------------------------------------------------------------
